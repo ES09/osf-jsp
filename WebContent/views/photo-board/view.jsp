@@ -10,8 +10,8 @@
 <table border="1">
 	 <tr>
 	 	<td>${pBoard.pb_num}</td>
-	 	<td><img title='${pBoard.pb_real_path}"
-	 		width="100"src='${pBoard.pb_file_path}"
+	 	<td><img title="${pBoard.pb_real_path}"
+	 		width="100" src="${pBoard.pb_file_path}"
 	 		alt="${pBoard.pb_real_path}">
 	 		${pBoard.pb_title}</td>
 	 	<td>${pBoard.pb_credat}</td>
