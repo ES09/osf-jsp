@@ -28,7 +28,7 @@
     <servlet-name>TestServlet</servlet-name>
     <url-pattern>/test/*</url-pattern>
   </servlet-mapping>
-    <servlet>
+  <servlet>
   	<servlet-name>FoodServlet</servlet-name>
   	<servlet-class>com.osf.test.servlet.FoodServlet</servlet-class>
   </servlet>
@@ -36,4 +36,9 @@
   	<servlet-name>FoodServlet</servlet-name>
   	<url-pattern>/food/*</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FoodServlet</servlet-name>
+  	<url-pattern>/foods/*</url-pattern>
+  </servlet-mapping>
 </web-app>
+
