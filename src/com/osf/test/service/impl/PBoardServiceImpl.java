@@ -11,19 +11,30 @@ public class PBoardServiceImpl implements PBoardService {
 	
 	private PBoardDAO pbdao = new PBoardDAOImpl();
 	
-	@Override
-	public int insertPBoard(Map<String, String> pBoard) {
-		return pbdao.insertPBoard(pBoard);
-	}
+	 @Override
+	 public List<Map<String, String>> selectPBoardList() {
+	      return pbdao.selectPBoardList();
+	   }
 
-	@Override
-	public List<Map<String, String>> selectPBoardList() {
-		return pbdao.selectPBoardList();
-	}
-
-	@Override
-	public Map<String, String> selectPBoard(int pbNum) {
-		return pbdao.selectPBoard(pbNum);
-	}
+	 @Override
+	 public List<Map<String, String>> selecTPBoardList() {
+	      return null;
+	   }
+	
+	
+//	@Override
+//	public int insertPBoard(Map<String, String> pBoard) {
+//		return pbdao.insertPBoard(pBoard);
+//	}
+//
+//	@Override
+//	public List<Map<String, String>> selectPBoardList() {
+//		return pbdao.selectPBoardList();
+//	}
+//
+//	@Override
+//	public Map<String, String> selectPBoard(int pbNum) {
+//		return pbdao.selectPBoard(pbNum);
+//	}
 
 }
